@@ -1,6 +1,6 @@
 import { Heading, Column, Row, Container, Text, Section } from "react-email";
 
-export function ListComponentJs({ competencias }) {
+export function EjemploListComponentJavascript({ competencias }) {
   return (
     <Container className="mx-auto max-w-[600px] rounded-[8px] bg-white p-[24px]">
       {competencias.map((item) => (

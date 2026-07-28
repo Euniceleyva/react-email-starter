@@ -16,7 +16,7 @@ import {
   Section,
 } from "react-email";
 
-import { ListComponentJs } from "./ejemplo-list-component-javascript";
+import { EjemploListComponentJavascript } from "./EjemploListComponentJavascript";
 
 export function NewEmail() {
   return (
@@ -62,7 +62,7 @@ export function NewEmail() {
             <Column>3</Column>
           </Row>
           <Hr />
-          <ListComponentJs competencias={competencias} />
+          <EjemploListComponentJavascript competencias={competencias} />
         </Body>
       </Html>
     </Tailwind>

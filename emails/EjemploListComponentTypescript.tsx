@@ -10,7 +10,7 @@ type ListComponentProps = {
   competencias: Competencia[];
 };
 
-export function ListComponent({ competencias }: ListComponentProps) {
+export function EjemploListComponentTypescript({ competencias }: ListComponentProps) {
   return (
     <Container className="mx-auto max-w-[600px] rounded-[8px] bg-white p-[24px]">
       {competencias.map((item) => (
