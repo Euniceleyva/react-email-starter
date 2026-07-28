@@ -1,6 +1,13 @@
-import { Heading, Column, Row, Container, Text, Section } from "react-email";
+import {
+  Heading,
+  Column,
+  Row,
+  Container,
+  Text,
+  Section,
+} from "react-email";
 
-type Competencia = {
+export type Competencia = {
   number: number;
   title: string;
   description: string;
