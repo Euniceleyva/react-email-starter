@@ -1,16 +1,5 @@
 import { Heading, Column, Row, Container, Text, Section } from "react-email";
-
-type Competencia = {
-  number: number;
-  title: string;
-  description: string;
-};
-
-type ListComponentProps = {
-  competencias: Competencia[];
-};
-
-export function ListComponent({ competencias }: ListComponentProps) {
+export function ListComponentJs({ competencias }) {
   return (
     <Container className="mx-auto max-w-[600px] rounded-[8px] bg-white p-[24px]">
       {competencias.map((item) => (
