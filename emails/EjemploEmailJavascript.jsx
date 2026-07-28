@@ -16,7 +16,7 @@ import {
   Section,
 } from "react-email";
 
-import { EjemploListComponentJavascript } from "./EjemploListComponentJavascript";
+import { EjemploListComponentJavascript } from "./components/EjemploListComponentJavascript";
 
 export function NewEmail() {
   return (
